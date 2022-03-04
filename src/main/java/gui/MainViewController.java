@@ -1,4 +1,4 @@
-package app.gui;
+package gui;
 
 import app.Application;
 import gui.util.Alerts;
@@ -34,7 +34,7 @@ public class MainViewController implements Initializable {
 
     @FXML
     public void onMenuItemDepartmentAction(){
-        System.out.println("onMenuItemDepartmentAction");
+        loadView("/app/gui/DepartmentList.fxml");
     }
 
     @FXML
