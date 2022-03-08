@@ -8,4 +8,8 @@ module app {
     opens gui to javafx.fxml;
     exports gui.util;
     opens gui.util to javafx.fxml;
+    exports model.entities;
+    opens model.entities to javafx.fxml;
+    exports model.services;
+    opens model.services to javafx.fxml;
 }
