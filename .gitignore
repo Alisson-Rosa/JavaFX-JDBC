@@ -30,6 +30,7 @@ build/
 nbbuild/
 dist/
 nbdist/
+instalação/
 
 #IDEA
 .idea/
